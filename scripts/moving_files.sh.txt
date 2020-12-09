@@ -1,0 +1,4 @@
+#!/bin/sh
+/usr/bin/scp /root/covid*.csv username@X.X.X.X://usr/share/logstash/data/datacleaning
+sleep 2
+/bin/mv /root/covid*.csv /root/covid19_bkup/

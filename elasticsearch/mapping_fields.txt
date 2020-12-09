@@ -1,0 +1,152 @@
+{
+  "covid19" : {
+    "mappings" : {
+      "properties" : {
+        "@timestamp" : {
+          "type" : "date"
+        },
+        "@version" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "ActiveCase" : {
+          "type" : "long"
+        },
+        "Continent" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "Country" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "Deathcase_1m" : {
+          "type" : "long"
+        },
+        "NewCases" : {
+          "type" : "long"
+        },
+        "NewDeaths" : {
+          "type" : "long"
+        },
+        "NewRecovered" : {
+          "type" : "long"
+        },
+        "SeriousCase" : {
+          "type" : "long"
+        },
+        "TotCases_1m" : {
+          "type" : "long"
+        },
+        "TotalCases" : {
+          "type" : "long"
+        },
+        "TotalDeaths" : {
+          "type" : "long"
+        },
+        "TotalRecovered" : {
+          "type" : "long"
+        },
+        "Total_test" : {
+          "type" : "long"
+        },
+        "Total_test_1m" : {
+          "type" : "long"
+        },
+        "case_1" : {
+          "type" : "long"
+        },
+        "column15" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "column16" : {
+          "type" : "date"
+        },
+        "dates" : {
+          "type" : "date"
+        },
+        "death_1" : {
+          "type" : "long"
+        },
+        "host" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "message" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "path" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "population" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "serial" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "tags" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "test_1" : {
+          "type" : "long"
+        }
+      }
+    }
+  }
+}

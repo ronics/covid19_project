@@ -1,0 +1,43 @@
+{
+  "_index": "covid19",
+  "_type": "_doc",
+  "_id": "lcovRnYBDR9qsDO_18bE",
+  "_score": 1,
+  "_source": {
+    "test_1": null,
+    "path": "/path/to/your/csv/covid19_2020-12-08.csv",
+    "ActiveCase": 19537858,
+    "Total_test": null,
+    "TotalRecovered": 47449958,
+    "@timestamp": "2020-12-09T06:28:29.199Z",
+    "NewCases": 584388,
+    "Deathcase_1m": 200.4,
+    "Country": "World",
+    "dates": "2020-12-07T18:15:00.000Z",
+    "NewRecovered": 442038,
+    "TotCases_1m": 8794,
+    "death_1": null,
+    "Total_test_1m": null,
+    "SeriousCase": 106388,
+    "TotalCases": 68549902,
+    "TotalDeaths": 1562086,
+    "host": "localhost.localdomain",
+    "NewDeaths": 11714,
+    "Continent": "All",
+    "@version": "1",
+    "population": null,
+    "serial": null,
+    "case_1": null
+  },
+  "fields": {
+    "CaseClosed": [
+      "doc['TotalRecovered'].value + doc['TotalDeaths'].value"
+    ],
+    "@timestamp": [
+      "2020-12-09T06:28:29.199Z"
+    ],
+    "dates": [
+      "2020-12-07T18:15:00.000Z"
+    ]
+  }
+}

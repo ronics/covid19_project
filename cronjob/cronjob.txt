@@ -1,0 +1,3 @@
+18 8 * * * /usr/bin/python /path/to/python_file/covid19.py
+
+0 9 * * * /bin/sh /scripts/covid19.sh &> /dev/null
